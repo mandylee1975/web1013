@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+            width: 1200px;
+            margin: auto;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .box:hover {
+            transform: scale(1.2);
+        }
+
+            .box img {
+                width: 300px;
+                height: 200px;
+                transition: all .5s;
+            }
+
+            .box {
+                background-color: bisque;
+                display: inline-block;
+                padding: 20px;
+                margin: 20px;
+                transition: all .5s;
+                box-shadow: 0 0 5px rgba(51, 50, 50, 0.76);
+        }
+
+        .box:hover img{
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="box">
+            <p> <img src="./images/01.jpg" alt=""></p>
+            <h3> PHOTO-1</h3>
+            <P>https://picsum.photos/</P>
+        </div>
+
+        <div class="box">
+            <p> <img src="./images/02.jpg" alt=""></p>
+            <h3> PHOTO-2</h3>
+            <P>https://picsum.photos/</P>
+        </div>
+
+        <div class="box">
+            <p> <img src="./images/03.jpg" alt=""></p>
+            <h3> PHOTO-3</h3>
+            <P>https://picsum.photos/</P>
+        </div>
+
+    </div>
+</body>
+
+</html>
